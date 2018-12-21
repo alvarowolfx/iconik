@@ -49,8 +49,8 @@ class MainCommand extends Command {
         task : ( ctx ) => {
           const icons = []
           const iconsTemplate = []
-            .concat( ios ? iosIcons : [] )
-            .concat( android ? androidIcons : [] )
+            .concat( ios || generateAll ? iosIcons : [] )
+            .concat( android || generateAll ? androidIcons : [] )
           
           const genAppStoreIcon = ctx.dimensions >= 1024          
           if ( genAppStoreIcon && ( ios || generateAll ) ) {
