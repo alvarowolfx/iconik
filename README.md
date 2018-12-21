@@ -12,6 +12,13 @@ The goal of the project is to generate the icons necessary, detect the project a
 - [ ] Setup icons files accordingly to the project architecture.  
 - [ ] Add option to zip all icons.
 
+### Install [Not Ready]
+```
+npm install -g iconik
+or
+npx iconik
+```
+
 ### Usage
 ```
 Generate app icons in all different sizes.
@@ -34,7 +41,28 @@ DESCRIPTION
   Please provide an icon with at least 512x512px.
 ```
 
+### Example Output
+```
+$ iconik icon.png
+  ✔ Check Input
+  ✔ Image Check
+  ✔ Check output
+  ✔ Generate icons
+
+$ ls icons
+hdpi.png                       iPadSpotlight40x40@2x.png      iPhoneSettings29x29@2x.png     playStore.png
+iPad76x76@2x.png               iPhone60x60@2x.png             iPhoneSettings29x29@3x.png     xhdpi.png
+iPadNotification20x20@2x.png   iPhone60x60@3x.png             iPhoneSpotlight40x40@2x.png    xxhdpi.png
+iPadPro83.5x83.5@2x.png        iPhoneNotification20x20@2x.png iPhoneSpotlight40x40@3x.png    xxxhdpi.png
+iPadSettings29x29@2x.png       iPhoneNotification20x20@3x.png mdpi.png
+```
+
 ### Running locally
 ```
 $ ./bin/run ICON
 ```
+
+### Credits
+
+* [sharp](https://github.com/lovell/sharp) - Blazing fast image resize module. 
+* [ocli](https://oclif.io) - Awesome CLI Framework.
