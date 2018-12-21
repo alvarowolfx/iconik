@@ -1,0 +1,38 @@
+{
+  "name": "appicongenerator",
+  "version": "1.0.0",
+  "description": "App icon generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react-native",
+    "ionic",
+    "ios",
+    "android",
+    "cordova"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "oclif": {
+    "bin": "appicongenerator"
+  },
+  "author": "Alvaro Viebrantz",
+  "license": "SEE LICENSE IN License.md",
+  "dependencies": {
+    "@oclif/command": "^1.5.8",
+    "file-type": "^10.7.0",
+    "fs-extra": "^7.0.1",
+    "image-size": "^0.6.3",
+    "listr": "^0.14.3",
+    "oclif": "^1.12.8",
+    "read-chunk": "^3.0.0",    
+    "sharp": "^0.21.1"
+  }
+}

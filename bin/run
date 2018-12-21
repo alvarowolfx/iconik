@@ -1,0 +1,4 @@
+#!/usr/bin/env node
+
+require( '../src/index' ).run()
+  .catch( require( '@oclif/errors/handle' ) )

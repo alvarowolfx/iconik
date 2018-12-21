@@ -1,0 +1,101 @@
+{
+  "iosIcons": [
+    {
+      "name": "iPhone",
+      "factors": [
+        2,
+        3
+      ],
+      "baseSize": 60
+    },
+    {
+      "name": "iPhoneSpotlight",
+      "factors": [
+        2,
+        3
+      ],
+      "baseSize": 40
+    },
+    {
+      "name": "iPhoneSettings",
+      "factors": [
+        2,
+        3
+      ],
+      "baseSize": 29
+    },
+    {
+      "name": "iPhoneNotification",
+      "factors": [
+        2,
+        3
+      ],
+      "baseSize": 20
+    },
+    {
+      "name": "iPadPro",
+      "factors": [
+        2
+      ],
+      "baseSize": 83.5
+    },
+    {
+      "name": "iPad",
+      "factors": [
+        2
+      ],
+      "baseSize": 76
+    },
+    {
+      "name": "iPadSpotlight",
+      "factors": [
+        2
+      ],
+      "baseSize": 40
+    },
+    {
+      "name": "iPadSettings",
+      "factors": [
+        2
+      ],
+      "baseSize": 29
+    },
+    {
+      "name": "iPadNotification",
+      "factors": [
+        2
+      ],
+      "baseSize": 20
+    }
+  ],
+  "androidIcons": [
+    {
+      "name": "mdpi",      
+      "baseSize": 48
+    },
+    {
+      "name": "hdpi",      
+      "baseSize": 72
+    },
+    {
+      "name": "xhdpi",      
+      "baseSize": 96
+    },
+    {
+      "name": "xxhdpi",      
+      "baseSize": 144
+    },
+    {
+      "name": "xxxhdpi",      
+      "baseSize": 192
+    },
+    {
+      "name": "playStore",      
+      "baseSize": 512
+    }
+  ],
+  "appStoreIcon": {
+    "name": "appStore",    
+    "baseSize": 1024
+  }
+}
