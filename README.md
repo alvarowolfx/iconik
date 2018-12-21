@@ -1,4 +1,4 @@
-# App Icon Generator
+# iconik - App Icon Generator
 
 CLI tool for generating icons for iOS and Android apps.
 
@@ -17,7 +17,7 @@ The goal of the project is to generate the icons necessary, detect the project a
 Generate app icons in all different sizes.
 
 USAGE
-  $ appicongenerator ICON
+  $ iconik ICON
 
 ARGUMENTS
   ICON  input icon

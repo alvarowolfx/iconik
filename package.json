@@ -1,5 +1,5 @@
 {
-  "name": "appicongenerator",
+  "name": "iconik",
   "version": "1.0.0",
   "description": "App icon generator",
   "main": "index.js",
@@ -21,7 +21,7 @@
     "/src"
   ],
   "oclif": {
-    "bin": "appicongenerator"
+    "bin": "iconik"
   },
   "author": "Alvaro Viebrantz",
   "license": "SEE LICENSE IN License.md",
