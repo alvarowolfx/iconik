@@ -94,7 +94,7 @@ class MainCommand extends Command {
 }
 
 MainCommand.description = `
-Generate icons in different sizes.
+Generate app icons in all different sizes.
 Please provide an icon with at least 512x512px.
 `
 
@@ -103,8 +103,8 @@ MainCommand.args = [
 ]
 
 MainCommand.flags = {  
-  ios : flags.boolean( { default : false, description : 'generate ios icons' } ),
-  android : flags.boolean( { default : false, description : 'generate android icons' } ),
+  ios : flags.boolean( { default : false, description : 'generate only ios icons' } ),
+  android : flags.boolean( { default : false, description : 'generate only android icons' } ),
   output : flags.string( { char : 'o', required : false, description : 'output folder', default : 'icons' } ),
   // Default flags
   version : flags.version( { char : 'v' } ),
