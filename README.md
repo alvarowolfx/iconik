@@ -7,16 +7,14 @@ The goal of the project is to generate the icons necessary, detect the project a
 ### Goals
 
 - [x] Generate icons in all needed sizes.
-- [ ] Publish as NPM package.
+- [x] Publish as NPM package.
 - [ ] Detect project architecture.
 - [ ] Setup icons files accordingly to the project architecture.  
 - [ ] Add option to zip all icons.
 
-### Install [Not Ready]
+### Install
 ```
 npm install -g iconik
-or
-npx iconik
 ```
 
 ### Usage

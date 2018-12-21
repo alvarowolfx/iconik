@@ -1,6 +1,6 @@
 {
   "name": "iconik",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "App icon generator",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,9 @@
   ],
   "oclif": {
     "bin": "iconik"
+  },
+  "bin": {
+    "iconik": "./bin/run"
   },
   "author": "Alvaro Viebrantz",
   "license": "SEE LICENSE IN License.md",
