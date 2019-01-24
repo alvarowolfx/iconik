@@ -15,7 +15,7 @@ class MainCommand extends Command {
   async run() {
     const { args, flags } = this.parse( MainCommand )
     const { icon } = args
-    const { ios, android, output } = flags
+    const { ios, android, output, roundedCorners } = flags
     const generateAll = !ios && !android
 
     const tasks = new ListR( [
@@ -79,7 +79,7 @@ class MainCommand extends Command {
           const resizeTasks = icons.map( ( config ) => {
             return {
               title : `Creating icon ${config.name}`,
-              task : ImageResizeTask( ctx, icon, config, output )
+              task : ImageResizeTask( ctx, icon, config, output, roundedCorners )
             }
           } )
           return new ListR( resizeTasks, { concurrent : true } )
@@ -106,6 +106,7 @@ MainCommand.flags = {
   ios : flags.boolean( { default : false, description : 'generate only ios icons' } ),
   android : flags.boolean( { default : false, description : 'generate only android icons' } ),
   output : flags.string( { char : 'o', required : false, description : 'output folder', default : 'icons' } ),
+  roundedCorners : flags.boolean( { char : 'c', default : false, description : 'add rounded corners' } ),  
   // Default flags
   version : flags.version( { char : 'v' } ),
   help : flags.help( { char : 'h' } ),
