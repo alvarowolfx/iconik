@@ -15,7 +15,7 @@ function ImageResizeTask( ctx, path, config, output, roundedCorners ) {
     if ( roundedCorners ) {
       sharpTask = sharpTask.overlayWith( getRoundedCorners( config.size, config.size ), { cutout : true } )
     }      
-    return sharpTask.png().toFile( `./${output}/${config.name}.png` )    
+    return sharpTask.png().toFile( `${output}/${config.name}.png` )    
   }
 }
 
