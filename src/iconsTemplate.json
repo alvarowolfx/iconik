@@ -66,36 +66,100 @@
         2
       ],
       "baseSize": 20
+    },
+    {
+      "name": "watch38Notification",
+      "factors": [
+        2
+      ],
+      "baseSize": 24
+    },
+    {
+      "name": "watch40Notification",
+      "factors": [
+        2
+      ],
+      "baseSize": 27.5
+    },
+    {
+      "name": "watchCompanion",
+      "factors": [
+        2,
+        3
+      ],
+      "baseSize": 29
+    },
+    {
+      "name": "watch38Home",
+      "factors": [
+        2
+      ],
+      "baseSize": 40
+    },
+    {
+      "name": "watch40Home",
+      "factors": [
+        2
+      ],
+      "baseSize": 44
+    },
+    {
+      "name": "watch44Home",
+      "factors": [
+        2
+      ],
+      "baseSize": 50
+    },
+    {
+      "name": "watch38ShortLook",
+      "factors": [
+        2
+      ],
+      "baseSize": 86
+    },
+    {
+      "name": "watch40ShortLook",
+      "factors": [
+        2
+      ],
+      "baseSize": 98
+    },
+    {
+      "name": "watch44ShortLook",
+      "factors": [
+        2
+      ],
+      "baseSize": 108
     }
   ],
   "androidIcons": [
     {
-      "name": "mdpi",      
+      "name": "mdpi",
       "baseSize": 48
     },
     {
-      "name": "hdpi",      
+      "name": "hdpi",
       "baseSize": 72
     },
     {
-      "name": "xhdpi",      
+      "name": "xhdpi",
       "baseSize": 96
     },
     {
-      "name": "xxhdpi",      
+      "name": "xxhdpi",
       "baseSize": 144
     },
     {
-      "name": "xxxhdpi",      
+      "name": "xxxhdpi",
       "baseSize": 192
     },
     {
-      "name": "playStore",      
+      "name": "playStore",
       "baseSize": 512
     }
   ],
   "appStoreIcon": {
-    "name": "appStore",    
+    "name": "appStore",
     "baseSize": 1024
   }
 }
