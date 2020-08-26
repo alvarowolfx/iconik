@@ -13,9 +13,10 @@ function ImageResizeTask( ctx, path, config, output, roundedCorners ) {
     let sharpTask = sharp( path )
       .resize( config.size, config.size )
     if ( roundedCorners ) {
-      sharpTask = sharpTask.overlayWith( getRoundedCorners( config.size, config.size ), { cutout : true } )
-    }      
-    return sharpTask.png().toFile( `${output}/${config.name}.png` )    
+      const mask = getRoundedCorners( config.size, config.size )
+      sharpTask = sharpTask.composite( [ { input : mask, blend : 'dest-in' } ] )
+    }
+    return sharpTask.png().toFile( `${output}/${config.name}.png` )
   }
 }
 
